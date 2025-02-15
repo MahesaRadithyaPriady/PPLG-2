@@ -1,0 +1,42 @@
+.custom-link {
+    color: #2e2c2c; /* Warna kuning untuk link tertentu */
+  }
+  .custom-link:hover {
+    color: #06b5d4; /* Warna kuning lebih gelap saat hover */
+  }
+#foto {
+  height: 70vh;
+}
+footer {
+  width: 100%;
+
+}
+#pesan {
+  font-size: 80px;
+  color: #fded04;
+}
+
+#home {
+  position: relative;
+  height: 100vh; /* Membuat section hampir memenuhi satu layar */
+  display: flex;
+  justify-content: center; /* Menyelaraskan konten secara horizontal */
+  align-items: center; /* Menyelaraskan konten secara vertikal */
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Gambar di belakang teks */
+}
+
+.text-overlay {
+  position: relative;
+  z-index: 1; /* Teks berada di depan gambar */
+  color: rgb(0, 0, 0); /* Agar teks terlihat jelas di atas gambar */
+  padding: 20px;
+}
